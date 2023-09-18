@@ -3,16 +3,17 @@
 
 main(){
   
-  int numero = 0, numero2 = 0;
+  int numero = 1, numero2 = 0,soma = 0;
 
-  printf("Digite um numero:");
-  scanf("%d", &numero);
-
-  while (numero >= numero2)
+  while (numero <= 50)
   {
-    printf("\nResultado:%d", numero2);
-    numero2 += 2;
-  }
+numero2 += 2;
+soma += numero2;
+  
+printf("\nResultado:%d %d %d",numero, numero2, soma);
+numero++;
+}
+
   
 
 }
